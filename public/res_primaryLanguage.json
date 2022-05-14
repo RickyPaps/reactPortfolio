@@ -1,0 +1,149 @@
+{
+    "basic_info": {
+      "description_header": "Hi",
+      "description": "👋 I'm Riccardo Papini and I work with some of the newest Front-End frameworks like React to create diverse sites for customers. This portfolio is created with React. I do have experience using other languages in order to help meet your (or your clients) needs and requirements and will be happy to discuss more when we meet. Have a great day and I hope to hear from you soon!",
+      "section_name": {
+        "about": "About me",
+        "projects": "Projects",
+        "skills": "Skills",
+        "experience": "Experience"
+      }
+    },
+    "projects": [
+      {
+        "title": "Mr Price",
+        "date": "2019",
+        "description": "The most expanded application I had the opportunity to work with. Building an E-Commerce PWA site where I got got my first experience with React, GraphQL and Magento. The Front-End was built with Headless CMS in mind and used the Ionic React framework.",
+        "logo": "images/portfolio/mr-price/mr-price-logo.png",
+        "images": [
+          {
+            "desktop": [
+              "images/portfolio/mr-price/p1.webp",
+              "images/portfolio/mr-price/p2.webp"
+            ],
+            "mobile": [
+              "images/portfolio/mr-price/p1-m.webp",
+              "images/portfolio/mr-price/p2-m.webp"
+            ]
+          }
+        ],
+        "url": "https://www.mrp.com/home",
+        "technologies": [
+          {
+            "class": "devicon-ionic-original",
+            "name": "Ionic React"
+          },
+          {
+            "class": "devicon-typescript-plain",
+            "name": "TypeScript"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "Javascript"
+          },
+          {
+            "class": "devicon-graphql-plain",
+            "name": "GraphQL"
+          },
+          {
+            "class": "devicon-sass-plain",
+            "name": "Sass"
+          }
+        ]
+      },
+      {
+        "title": "Mr Price Group",
+        "date": "2019",
+        "description": "The business site to the Mr Price Group. I was put in charge of maintaining, updating and developing new designs over the course of my time at the company. The site was hosted on Kentico CMS and used regular HTML/Javascript/CSS.",
+        "logo": "images/portfolio/mr-price-group/Mr-Price-Group-Ltd.png",
+        "images": [
+          {
+            "desktop": [
+              "images/portfolio/mr-price-group/p1.webp",
+              "images/portfolio/mr-price-group/p2.webp"
+            ],
+            "mobile": [
+              "images/portfolio/mr-price-group/p1-m.webp",
+              "images/portfolio/mr-price-group/p2-m.webp"
+            ]
+          }
+        ],
+        "url": "https://www.mrpricegroup.com/",
+        "technologies": [
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS"
+          }
+        ]
+      },
+      {
+        "title": "Mr Price Foundation",
+        "date": "2018",
+        "description": "An NPO that is part of the Mr Price Group. I was in charge of implementing new designs and at one point, even creating a completely new site for them for their annual challange called 'Ride for MRP Foundation'. ",
+        "logo": "images/portfolio/foundation/mrp-foundation.jpg",
+        "images": [
+          {
+            "desktop": [
+              "images/portfolio/foundation/p1.webp",
+              "images/portfolio/foundation/p2.webp"
+            ],
+            "mobile": [
+              "images/portfolio/foundation/p1-m.webp",
+              "images/portfolio/foundation/p2-m.webp"
+            ]
+          }
+        ],
+        "url": "https://mrpricefoundation.org/",
+        "technologies": [
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS"
+          }
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "Mr Price",
+        "title": "Front-End Developer",
+        "years": "02.2018 - 04.2021",
+        "mainTech": ["React 17.0.0"],
+        "technologies": [
+          "Ionic React",
+          "CSS",
+          "JavaScript",
+          "Bootstrap",
+          "Sass",
+          "GraphQL",
+          "HTML",
+          "jQuery",
+          "Sharepoint",
+          "BitBucket"
+        ]
+      },
+      {
+        "company": "Freelance",
+        "title": "Web Developer",
+        "years": "01.2017 - 02.2018",
+        "mainTech": ["Shopify"],
+        "technologies": ["HTML", "Javascript", "PHP", "CSS"]
+      }
+    ]
+  }
+  

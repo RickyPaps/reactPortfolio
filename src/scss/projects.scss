@@ -1,0 +1,100 @@
+.project-date {
+    font-size: 16px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    padding: 8px 15px 2px 15px;
+    position: relative;
+    border-top: 5px solid #696969;
+    border-radius: 0 0 5px 5px;
+    background-color: #696969;
+    color: white;
+  }
+
+  .foto img {
+    display: block;
+    object-fit: contain;
+    width: 100%;
+  }
+
+  .foto div {
+    background: #ffffff;
+    display: inline-block;
+    margin: 0 auto 5% auto;
+    padding: 10px 10px 5px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.2s linear;
+    position: relative;
+    z-index: 0;
+    min-width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+  }
+  
+  .foto div:after {
+    color: #333;
+    font-size: 25px;
+    content: attr(title);
+    position: relative;
+    top: 15px;
+  }
+  
+  .foto div:hover {
+    transform: scale(1.01);
+    z-index: 10;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
+    -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
+    -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
+    -webkit-transform: scale(1.01);
+    -moz-transform: scale(1.01);
+  }
+
+  .project-title-settings {
+    margin-top: 5%;
+    font: 18px/24px "opensans-bold", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: black;
+    text-align: center;
+  }
+
+  #portfolio {
+    background: #efe1bd;
+    padding-bottom: 5%;
+  }
+  
+  .portfolio-item {
+    max-width: 100%;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .portfolio .portfolio-item .portfolio-item-caption {
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+    opacity: 0;
+    background-color: rgba(51, 51, 51, 0.9);
+  }
+  
+  .portfolio .portfolio-item .portfolio-item-caption:hover {
+    opacity: 1;
+  }
+  
+  .portfolio
+    .portfolio-item
+    .portfolio-item-caption
+    .portfolio-item-caption-content {
+    font-size: 1.5rem;
+  }
+
+  @media (min-width: 576px) {
+    .portfolio .closeButtonResponsive {
+      display: block;
+    }
+    .portfolio .portfolio-item {
+      margin-bottom: 30px;
+    }
+  }
