@@ -1,10 +1,10 @@
 import React from "react";
 import AwesomeSlider from "react-awesome-slider";
-import AwesomeSliderStyles from "../scss/light-slider.scss";
-import AwesomeSliderStyles2 from "../scss/dark-slider.scss";
+import AwesomeSliderStyles from "../../scss/light-slider.scss";
+import AwesomeSliderStyles2 from "../../scss/dark-slider.scss";
 import { useMediaQuery } from "react-responsive";
 import { Modal } from "react-bootstrap";
-import "../scss/projectDetailModal.scss";
+import "./projectDetailModal.scss";
 import "react-awesome-slider/dist/custom-animations/scale-out-animation.css";
 
 const ProjectDetailsModal = ({ data: dataModal, show: display, onHide }) => {
@@ -20,11 +20,11 @@ const ProjectDetailsModal = ({ data: dataModal, show: display, onHide }) => {
       var img;
       if (isTabletOrMobile) {
         img = dataModal.images[0].mobile.map((elem, i) => {
-          return <img alt={"text"} key={i} data-src={elem} />;
+          return <img alt={"alt-text"} key={i} data-src={elem} />;
         });
       } else {
         img = dataModal.images[0].desktop.map((elem, i) => {
-          return <img alt={"text"} key={i} data-src={elem} />;
+          return <img alt={"alt-text"} key={i} data-src={elem} />;
         });
       }
     }
@@ -68,14 +68,12 @@ const ProjectDetailsModal = ({ data: dataModal, show: display, onHide }) => {
               data-icon="emojione:red-circle"
               data-inline="false"
               style={{ marginLeft: "5px" }}
-            ></span>{" "}
-            &nbsp;{" "}
+            ></span>
             <span
               className="iconify slider-iconfiy"
               data-icon="twemoji:yellow-circle"
               data-inline="false"
-            ></span>{" "}
-            &nbsp;{" "}
+            ></span>
             <span
               className="iconify slider-iconfiy"
               data-icon="twemoji:green-circle"

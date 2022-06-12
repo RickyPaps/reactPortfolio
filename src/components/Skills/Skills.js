@@ -1,5 +1,5 @@
 import React from "react";
-import "../scss/skills.scss";
+import "./skills.scss";
 
 const Skills = ({sharedSkills: sharedSkillsData, resumeBasicInfo: basicInfoData}) => {
   if (sharedSkillsData && basicInfoData) {

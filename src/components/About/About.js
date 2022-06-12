@@ -4,7 +4,7 @@ import htmlIcon from "@iconify/icons-logos/html-5";
 import reactIcon from "@iconify/icons-logos/react";
 import cssIcon from "@iconify/icons-logos/css-3";
 import ionicIcon from "@iconify/icons-logos/ionic";
-import "../scss/about.scss";
+import './about.scss'
 
 const About = ({sharedBasicInfo: sharedData, resumeBasicInfo: resumeData}) => {
   const [profilepic, setprofilepic] = useState("");

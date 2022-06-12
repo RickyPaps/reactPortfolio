@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import ProjectDetailsModal from "./ProjectDetailsModal";
-import "../scss/projects.scss";
+import ProjectDetailsModal from "../Modal/ProjectDetailsModal";
+import "./projects.scss";
 
 const Projects = ({
   resumeProjects: projectsData,

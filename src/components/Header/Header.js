@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Typical from "react-typical";
 import Switch from "react-switch";
-import "../scss/header.scss";
+import "./header.scss";
 
 const Header = ({sharedData:data}) => {
   const [titles, setTitles] = useState();

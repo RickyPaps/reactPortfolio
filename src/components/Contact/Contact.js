@@ -4,7 +4,7 @@ import { Icon } from "@iconify/react";
 import { ToastContainer, toast } from "react-toastify";
 import emailIcon from "@iconify/icons-logos/google-gmail";
 import whatsappIcon from "@iconify/icons-logos/whatsapp";
-import "../scss/contact.scss";
+import "./contact.scss";
 import "react-toastify/dist/ReactToastify.css";
 
 const Contact = () => {
