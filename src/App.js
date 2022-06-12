@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from "react";
 import "./App.scss";
-import Contact from "./components/Contact";
-import Cv from "./components/Cv";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import About from "./components/About";
-import Experience from "./components/Experience";
-import Projects from "./components/Projects";
-import Skills from "./components/Skills";
+import Contact from "./components/Contact/Contact";
+import Cv from "./components/CV/Cv";
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
+import About from "./components/About/About";
+import Experience from "./components/Experience/Experience";
+import Projects from "./components/Projects/Projects";
+import Skills from "./components/Skills/Skills";
 
 const App = () => {
   const [resumeData, setresumeData] = useState({});

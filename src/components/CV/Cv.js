@@ -1,8 +1,8 @@
 import React from "react";
 import { FloatingButton, Item } from "react-floating-button";
-import downloadIcon from "../assets/DOWNLOAD.svg";
-import linkedinIcon from "../assets/linkedin.svg";
-import "../scss/cv.scss";
+import downloadIcon from "../../assets/DOWNLOAD.svg";
+import linkedinIcon from "../../assets/linkedin.svg";
+import "./cv.scss";
 
 const Cv = () => {
   const viewPdf = async () => {
